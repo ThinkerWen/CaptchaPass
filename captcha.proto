@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "/captcha"; // 用于生成go语言的包名，可删除
+
+message Result {
+  int32 x = 1;
+  int32 y = 2;
+}
+
+service CaptchaProcessing {
+  rpc ProcessCaptcha (CaptchaRequest) returns (ResultResponse) {}
+}
+
+message CaptchaRequest {
+  string bg_path = 1;
+  string front_path = 2;
+}
+
+message ResultResponse {
+  repeated Result results = 1;
+}
