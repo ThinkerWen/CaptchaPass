@@ -43,7 +43,7 @@ def process(bg_path: str, front_path: str) -> None:
 
 
 if __name__ == '__main__':
-    for i in range(0, 5):
+    for i in range(0, 4):
         process(
             os.path.join(os.getcwd(), f"images/bg{i}.jpg"),
             os.path.join(os.getcwd(), f"images/front{i}.png")

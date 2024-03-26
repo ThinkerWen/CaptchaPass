@@ -3,7 +3,7 @@
 这个文件夹用来执行图形识别测试
 
 ### 目录介绍
-_test_identify.py_ 文件是主方法文件
+_test_click.py_ 、_test_slide.py_ 两文件是主方法文件
 
 _images_ 文件夹中存储的是待测试的图像
 
