@@ -71,4 +71,4 @@ _, strong_contrast_bg = cv2.threshold(gray_bg, 250, 255, cv2.THRESH_BINARY)
 
 | 背景图 | 目标图 |
 | :----:| :----: |
-| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg3.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front3.png" width="200" alt="目标图"/> |
