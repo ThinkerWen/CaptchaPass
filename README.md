@@ -8,13 +8,13 @@
 
 | 背景图 | 目标图 |
 | :----:| :----: |
-| <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
 
 #### 滑动式：
 
 |                                                              背景图                                                               |                                                                目标图                                                                |
 |:------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/slide_bg0.png" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/slide_block0.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/slide_bg0.png" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/slide_block0.png" width="200" alt="目标图"/> |
 
 项目非通用解决方案，如果您的问题不满足以下几点，需要做一些简单的定制（[有引导](#定制引导)）：
 #### 点击式：
@@ -23,7 +23,7 @@
 3. 背景图的目标图形为白色
 
 ## 介绍
-[【看雪】Python OpenCV 过点击式和滑动式图形验证码的校验](https://bbs.kanxue.com/homepage-959049.htm)
+[【看雪】Python OpenCV 过点击式和滑动式图形验证码的校验](https://bbs.kanxue.com/thread-281098.htm)
 
 [【52破解】Python OpenCV 过点击式和滑动式图形验证码的校验](https://www.52pojie.cn/home.php?mod=space&uid=1920139)
 ## 定制引导
@@ -63,12 +63,12 @@ _, strong_contrast_bg = cv2.threshold(gray_bg, 250, 255, cv2.THRESH_BINARY)
 
 |                                                           背景图                                                            |                                                             目标图                                                             |
 |:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
-| <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/bg1.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/front1.png" width="200" alt="目标图"/> |
-| <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/bg2.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/front2.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg1.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front1.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg2.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front2.png" width="200" alt="目标图"/> |
 
 但颜色与待匹配的front图像相似的难以精确匹配，如:
 
 | 背景图 | 目标图 |
 | :----:| :----: |
-| <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/Raptor-wxw/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
+| <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/bg0.jpg" width="200" alt="背景图"/> | <img src="https://raw.githubusercontent.com/ThinkerWen/CaptchaPass/main/test/images/front0.png" width="200" alt="目标图"/> |
